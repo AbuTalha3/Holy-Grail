@@ -41,3 +41,31 @@
 .sidebar ul li { 
   text-decoration: none;
 }
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+  .container {
+    height: auto; /* Remove fixed height */
+  }
+
+  .header, .footer {
+    height: 10%; /* Adjust header and footer height */
+    font-size: 2.5rem; /* Decrease font size */
+  }
+
+  .middle-content {
+    height: auto; /* Remove fixed height */
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  .content {
+    font-size: 2.5rem; /* Decrease font size */
+  }
+
+  .sidebar {
+    flex: 0 0 auto; /* Allow sidebar to grow and shrink */
+    width: 100%; /* Occupy full width */
+    margin: 10px 0; /* Adjust margin */
+    font-size: 1.5rem; /* Decrease font size */
+  }
+}
