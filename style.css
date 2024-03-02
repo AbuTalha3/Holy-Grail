@@ -7,7 +7,7 @@
 
 .header, .footer {
   flex: 0 0 auto;
-  background-color: #ccc;
+  background-color: #76fc4d;
   height: 15%;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
 
 .content {
   flex: 1;
-  background-color: #f0f0f0;
+  background-color: #6d81f3;
   display: flex;
   border: 2px solid #0d077f;
   font-size: 3.5rem;
@@ -30,10 +30,14 @@
 
 
 .sidebar {
-  flex: 0 0 200px;
+  flex: 0 0 20px;
   background-color: #e0e0e0;
   margin: 0 10px;
   width: 20%;
   border: 2px solid #0d077f;
-  font-size: 3.5rem;
+  font-size: 2.0rem;
+  text-decoration: none;
+}
+.sidebar ul li { 
+  text-decoration: none;
 }
