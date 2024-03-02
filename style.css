@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border: 2px solid blue;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+  background-color: #ccc;
+  height: 15%;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+
+.middle-content {
+  display: flex;
+  background-color: #843df6;
+  height: 85%;
+}
+
+.content {
+  flex: 1;
+  background-color: #f0f0f0;
+  display: flex;
+  border: 2px solid #0d077f;
+  font-size: 3.5rem;
+}
+
+
+.sidebar {
+  flex: 0 0 200px;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+  width: 20%;
+  border: 2px solid #0d077f;
+  font-size: 3.5rem;
+}
