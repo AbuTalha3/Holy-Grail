@@ -11,8 +11,8 @@
 
 In order to run this project you may need:
 
-- **`Visual Studio Code`**
-- **`Live server Extension`**
+- **` Visual Studio Code`**
+- **` Live server Extension`**
 
 ## 👥 Author <a name="author"></a>
 
