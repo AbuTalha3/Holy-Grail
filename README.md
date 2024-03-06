@@ -22,3 +22,6 @@ In order to run this project you may need:
 <!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle) -->
 - LinkedIn: [AbuTalha](https://www.linkedin.com/in/abu-talha-8203b252/)
 
+- Acknowledgement
+Special thanks to Talha Najeeb for creating this project and sharing it with the community. Your contributions are greatly appreciated!
+
